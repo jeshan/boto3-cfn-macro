@@ -1,3 +1,3 @@
-project_code: boto3-custom-macro
+project_code: boto3-cfn-macro
 
 region: us-east-1
