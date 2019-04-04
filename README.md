@@ -1,4 +1,4 @@
-# boto3-custom-macro
+# boto3-cfn-macro
 
 Make arbitrary calls to AWS with boto3. I created this repo to make it easier to deploy with [Sceptre](https://github.com/cloudreach/sceptre) in one step.
 
