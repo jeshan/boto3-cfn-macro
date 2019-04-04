@@ -94,7 +94,7 @@ Resources:
                   return sendResponse(event, context, status, message)
 
               return sendResponse(event, context, "SUCCESS", "No action taken")
-      Handler: resource.handler
+      Handler: index.handler
       Role: !Sub '${Role.Arn}'
 
   MacroFunction:
@@ -158,7 +158,7 @@ Resources:
                   "fragment": fragment,
               }
 
-      Handler: macro.handler
+      Handler: index.handler
       Environment:
         Variables:
           LAMBDA_ARN: !GetAtt ResourceFunction.Arn
